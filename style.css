@@ -14,10 +14,13 @@
 }
 
 .logo {
-  width: 360px;
+  width: 90px;
   height: auto; /* keeps proportions */
   max-width: 100%;
+  display: block;
+  margin-right: 16px;
 }
+
 
 body {
   font-family: Arial, sans-serif;
