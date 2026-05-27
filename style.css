@@ -1,0 +1,173 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --bg: #ebcbe1;
+  --brand: #f4a261;
+  --brand-hover: #e9b3d5;
+  --text: #2b2b2b;
+  --card: rgba(255, 255, 255, 0.75);
+  --border: rgba(0, 0, 0, 0.08);
+}
+
+.logo {
+  width: 360px;
+  height: auto; /* keeps proportions */
+  max-width: 100%;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  background-color: var(--bg);
+  color: var(--text);
+}
+
+header {
+  background-color: var(--brand);
+  padding: 16px;
+  text-align: center;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.35);
+}
+
+header img {
+  border-radius: 12px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  margin-top: 12px;
+  flex-wrap: wrap;
+}
+
+nav a {
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: bold;
+  padding: 8px 10px;
+  border-radius: 8px;
+  display: inline-block;
+}
+
+nav a:hover {
+  color: #ffffff;
+  background: rgba(233, 179, 213, 0.35);
+}
+
+h1,
+h2,
+h3 {
+  font-family: 'Georgia', serif;
+  font-weight: bold;
+  letter-spacing: 0.5px;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 1rem;
+  line-height: 1.55;
+  margin-bottom: 15px;
+}
+
+main {
+  padding: 24px;
+  max-width: 1100px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+/* Make each direct child inside main feel like a readable block */
+main > * {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  padding: 16px;
+}
+
+main img {
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.18);
+  border-radius: 12px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+ul {
+  padding-left: 18px;
+  margin-bottom: 10px;
+}
+
+form {
+  margin-top: 6px;
+}
+
+label {
+  font-weight: bold;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 6px 0 12px;
+  border: 1px solid rgba(0, 0, 0, 0.18);
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.85);
+}
+
+button {
+  background-color: var(--brand);
+  color: #ffffff;
+  border: none;
+  padding: 12px 18px;
+  cursor: pointer;
+  border-radius: 12px;
+  font-weight: bold;
+}
+
+button:hover {
+  background-color: #e88b4f;
+}
+
+footer {
+  background-color: var(--brand);
+  color: white;
+  text-align: center;
+  padding: 12px;
+  margin-top: 20px;
+  border-top: 1px solid rgba(255, 255, 255, 0.35);
+}
+
+@media (max-width: 768px) {
+  main {
+    grid-template-columns: 1fr;
+    padding: 16px;
+  }
+
+  .logo {
+    width: 90px;
+  }
+
+  /* Stack nav items nicely on small screens */
+  nav ul {
+    gap: 10px;
+    flex-direction: column;
+  }
+
+  main > * {
+    padding: 14px;
+  }
+}
+
