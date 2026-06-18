@@ -1,5 +1,11 @@
 # Puppy Lane & Co
 
+## Student Information
+- **Student Name:** Mathabatha Mosebjadi
+- **Student Number:** ST10482679
+- **Module/Course:** Website development
+- **Institution:** Rosebank International (WEDE5020)
+
 **Puppy Lane & Co** is a simple multi-page website for a local pet spa (grooming & pampering services) in Polokwane.
 
 ## Project Structure
