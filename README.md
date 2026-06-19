@@ -50,3 +50,12 @@ Because this is a static HTML/CSS project, you can run it by simply opening the 
 
 Add your license text here (or remove this section if not needed).
 
+<img width="275" height="183" alt="SparRoom" src="https://github.com/user-attachments/assets/9ab249c7-f19d-4c2b-8753-c96c1e64f684" />
+
+<img width="225" height="225" alt="BathingDog" src="https://github.com/user-attachments/assets/dcbe29e5-2bd1-4bc9-b138-187ea9232a8d" />
+<img width="276" height="183" alt="HappyDog" src="https://github.com/user-attachments/assets/18ae4250-5986-43dd-b2eb-ae4232fec474" />
+<img width="275" height="183" alt="Pawdicure" src="https://github.com/user-attachments/assets/5967e267-034b-45ed-ae06-f101d86b0d27" />
+
+<img width="275" height="183" alt="GroomingSession" src="https://github.com/user-attachments/assets/61af359c-95d6-4b06-9bdc-26ef3fc7bd18" />
+
+
