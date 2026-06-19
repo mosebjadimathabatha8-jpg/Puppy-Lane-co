@@ -46,9 +46,8 @@ Because this is a static HTML/CSS project, you can run it by simply opening the 
 
 - The HTML files reference `icons.css` (`<link rel="stylesheet" href="icons.css">`). If you notice missing styling/errors in the browser, ensure `icons.css` exists at the expected location.
 
-## License
-
-Add your license text here (or remove this section if not needed).
+## website
+https://glittering-pie-394b02.netlify.app/ 
 
 <img width="275" height="183" alt="SparRoom" src="https://github.com/user-attachments/assets/9ab249c7-f19d-4c2b-8753-c96c1e64f684" />
 
